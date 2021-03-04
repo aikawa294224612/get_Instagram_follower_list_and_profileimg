@@ -205,7 +205,7 @@ def scrape_image(driver, image_id, account):
 ```python
 if __name__ == "__main__":
     driver = webdriver.Chrome()
-    wr = load_workbook('instagran_id.xlsx')
+    wr = load_workbook('instagran_id_[account].xlsx')
     sheet = wr.active 
     
     wb = Workbook()
